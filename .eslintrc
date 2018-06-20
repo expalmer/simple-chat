@@ -1,0 +1,36 @@
+{
+  "extends": ["prettier", "airbnb"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off",
+    "no-console": 0,
+    "semi": [2, "never"],
+    "object-curly-spacing": [2, "always"],
+    "arrow-parens": [2, "as-needed"],
+    "no-underscore-dangle": [2, { "allow": ["_id"] }],
+    "linebreak-style": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": {
+          "multiline": true,
+          "consistent": true
+        },
+        "ObjectPattern": {
+          "multiline": true,
+          "consistent": true
+        },
+        "ImportDeclaration": {
+          "multiline": true,
+          "consistent": true,
+          "minProperties": 0
+        }
+      }
+    ]
+  },
+  "plugins": ["prettier"],
+  "globals": {
+    "document": true
+  }
+}

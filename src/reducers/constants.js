@@ -1,0 +1,5 @@
+export const CHANGE_TAB = 'CHANGE_TAB'
+export const CHANGE_CHANNEL = 'CHANGE_CHANNEL'
+export const SEND_MESSAGE = 'SEND_MESSAGE'
+export const IS_TYPING = 'IS_TYPING'
+export const CHANGE_POPOVER = 'CHANGE_POPOVER'
